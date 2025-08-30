@@ -38,7 +38,8 @@ const fileUpLoader = async function (req, res) {
       'audio/ogg',
       'video/mp4',
       'video/mpeg',
-      'video/webm'
+      'video/webm',
+      'application/pdf'
     ];
 
     // Block unsupported files
